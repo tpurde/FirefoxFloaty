@@ -2,13 +2,13 @@
 --col_bg: #121212;
 --col_fg: #ffda70;
 --bg_image: url('$Insert your own image here$');
---radius_main: 10px;
+--radius_main: 0;
 --margin_main: 10px;
 --shadow_main: 3px 3px 5px 0px rgba(0,0,0,0.6);
 
 }
 
-#TabsToolbar, #sidebar-header, .sidebar-splitter, #back-button, #forward-button {
+#TabsToolbar,  #sidebar-header, .sidebar-splitter {
     visibility: collapse;
 }
 
@@ -23,7 +23,7 @@
 }
 
 #nav-bar-customization-target {
-    padding-left: 50px;
+    padding-left: 0px;
 }
 
 #nav-bar {
@@ -56,7 +56,7 @@ body {
 
 #navigator-toolbox {
     border-bottom: 0px solid black !important;
-    margin-left: 286px;
+    margin-left: 296px;
     z-index: 1;
 }
 
