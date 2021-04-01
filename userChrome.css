@@ -14,22 +14,14 @@
 
 #sidebar-box {
     margin-top: 15px;
-    margin-left: var(--margin_main);
-    margin-bottom: var(--margin_main);
 }
 
 #appcontent {
-    margin: var(--margin_main);
+    margin-left: var(--margin_main);
 }
 
 #nav-bar-customization-target {
     padding-left: 0px;
-}
-
-#nav-bar {
-    margin-top: var(--margin_main);
-    margin-left: var(--margin_main);
-    margin-right: var(--margin_main);
 }
 
 :root:not([uidensity="compact"]) #PanelUI-button {
